@@ -1,0 +1,17 @@
+# Scraper de Notícias (`news_scraper.py`)
+
+## 📌 O que faz
+- Acessa um site (por padrão [G1](https://g1.globo.com/)).
+- Extrai **título, link e resumo** das notícias.
+- Salva os dados em `manchetes.json`.
+
+---
+
+## ⚙️ Dependências
+- Python 3.8+
+- requests
+- beautifulsoup4
+
+Instalação:
+```bash
+pip install -r requirements.txt
