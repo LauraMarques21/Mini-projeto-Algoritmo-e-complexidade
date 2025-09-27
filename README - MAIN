@@ -1,0 +1,22 @@
+# Menu Principal (`main.py`)
+
+#O que faz
+Este script serve como **menu de entrada** do projeto.  
+Ele permite escolher no terminal qual aplicação rodar:
+
+1. **Scraper de Notícias** (`news_scraper.py`) → gera `manchetes.json`  
+2. **Bot Instagram** (`insta_bot.py`) → gera `bio.json`  
+0. **Sair**
+
+---
+
+## Dependências
+- Python 3.8+
+- requests  
+- beautifulsoup4  
+- selenium  
+- chromedriver (para o bot Instagram)  
+
+Instale tudo com:
+```bash
+pip install -r requirements.txt
